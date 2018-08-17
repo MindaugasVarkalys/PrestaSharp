@@ -29,6 +29,7 @@ namespace Bukimedia.PrestaSharp.Factories
         protected T Execute<T>(RestRequest Request) where T : new()
         {
             var client = new RestClient();
+            client.Timeout = 600 * 1000;
             client.AddHandler("text/html", new PrestaSharpTextErrorDeserializer());
             client.BaseUrl = new Uri(this.BaseUrl);
             //client.Authenticator = new HttpBasicAuthenticator(this.Account, this.Password);
