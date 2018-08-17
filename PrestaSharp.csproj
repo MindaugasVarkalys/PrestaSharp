@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
     <RootNamespace>Bukimedia.PrestaSharp</RootNamespace>
     <AssemblyName>Bukimedia.PrestaSharp</AssemblyName>
     <Company>Bukimedia</Company>
